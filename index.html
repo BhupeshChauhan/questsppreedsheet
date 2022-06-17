@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+    <!-- Head Starts -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Quest Screen</title>
+
+        <!-- CSS Imports -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link href="./style.css" rel="stylesheet" >
+    
+    </head>
+    <!-- Head Ends -->
+
+    <!-- Body Starts -->
+    <body>
+        <div>
+        <!-- Header Starts -->
+        <div id="overlay"></div>
+        <header class="page-header">
+            <div id="nav">
+                <div class="navClose">
+                    <button type="button" class="btn btn-primary HeaderActionsButton" id="closeburger">Hide Codes</button>
+                </div>
+                <div class="codeListContainer">
+                    <div class="codeListItem"><p class="codeListItemText">10 - Project Management</p></div>
+                    <div class="codeListItem"><p class="codeListItemText">20 - Project Engineering</p></div>
+                    <div class="codeListItem"><p class="codeListItemText">30 - Design Engineering</p></div>
+                    <div class="codeListItem"><p class="codeListItemText">40 - Electrical Engineering</p></div>
+                    <div class="codeListItem"><p class="codeListItemText">50 - Software Engineering</p></div>
+                    <div class="codeListItem"><p class="codeListItemText">55 - Process Engineering</p></div>
+                    <div class="codeListItem"><p class="codeListItemText">10 - Project Management</p></div>
+                    <div class="codeListItem"><p class="codeListItemText">20 - Project Engineering</p></div>
+                    <div class="codeListItem"><p class="codeListItemText">30 - Design Engineering</p></div>
+                    <div class="codeListItem"><p class="codeListItemText">40 - Electrical Engineering</p></div>
+                    <div class="codeListItem"><p class="codeListItemText">50 - Software Engineering</p></div>
+                    <div class="codeListItem"><p class="codeListItemText">55 - Process Engineering</p></div>
+                </div>
+            </div>
+            <div class="container-fluid HeaderContainer">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <h3 class="HeaderActionsTitle">Enter Time For Different Employee</h3>
+                            </div>
+                            <div class="col-lg-6" class="HeaderActionsControl">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Adam Foley</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 HeaderActionsButtonContainer">
+                        <button type="button" class="btn btn-primary HeaderActionsButton" id="burger">Show Codes</button>
+                    </div>
+                </div>
+                <div class="HeaderTitleContainer">
+                    <h1 class="HeaderTitle">TIMESHEET FOR ADAM FOLEY (LOGGED IN AS ANKIT PATEL)</h1>
+                </div>
+            </div>
+        </header>
+        <!-- Header Ends -->
+
+        <!-- main Starts -->
+        <div class="page-main">
+            <!-- Table Actions Starts -->
+            <div class="container-fluid TableActionsContainer">
+                <!-- TableHeaderActions Starts -->
+                <div class="row TableHeaderActions">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col-lg-4 selectLabelContainer">
+                                <p class="selectLabel">Job</p>
+                            </div>
+                            <div class="col-lg-8 selectContainer">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>4059</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Date of Work</span>
+                            <input type="text" class="form-control" placeholder="00.00" aria-label="00.00" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">Hours</span>
+                            <input type="text" class="form-control" placeholder="00.00" aria-label="00.00" aria-describedby="basic-addon1">
+                            </div>
+                    </div>
+                    <div class="col-lg-1 col-md-2 otlable">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                OT
+                            </label>
+                            </div>
+                    </div>
+                    <div class="col">
+                        <div class="row selectGroup">
+                            <div class="col-lg-4 selectLabelContainer" id="basic-addon1">
+                                <p class="selectLabel">Labor Code</p>
+                            </div>
+                            <div class="col-lg-8 selectContainer">
+                                <select class="form-select selectTextContainer" aria-label="Default select example">
+                                    <option selected>10 - Project Management</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- TableHeaderActions Ends -->
+                <!-- TableHeaderActionsButtons Starts -->
+                <div class="row TableHeaderActionsButtons">
+                    <div class="col TableHeaderActionsButtonContainer1">
+                        <button type="button" class="btn btn-primary TableHeaderActionsButton1">Save</button>
+                    </div>
+                    <div class="col TableHeaderActionsButtonContainer2">
+                        <button type="button" class="btn btn-primary TableHeaderActionsButton2">Delete</button>
+                    </div>
+                    <div class="col TableHeaderActionsButtonContainer3">
+                        <button type="button" class="btn btn-primary TableHeaderActionsButton3">Cancel</button>
+                    </div>
+                </div>
+                <!-- TableHeaderActionsButtons Ends -->
+            </div>
+            <div class="container dividerHeadingContainer">
+                <div class="row">
+                    <div class="col-4 dividerContainer">
+                        <div class="divider"></div>
+                    </div>
+                    <div class="col-4 dividerTextContainer">
+                        <p class="dividerText">Week Ending</p>
+                    </div>
+                    <div class="col-4 dividerContainer">
+                        <div class="divider"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid TableGroupContainer">
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group mb-3 tableFilter ">
+                            <span class="input-group-text" id="basic-addon1">Thu 02-0602022</span>
+                            <input type="text" class="form-control" placeholder="00.00" aria-label="00.00" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="TableContainer">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col-2">Job#</th>
+                                        <th scope="col-8">Customer</th>
+                                        <th scope="col-1">LC</th>
+                                        <th scope="col-1">Hrs</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="trAction">
+                                        <th scope="col"></th>
+                                        <th class="col trAction1"><<&nbsp;AddNew&nbsp;>></th>
+                                        <th class="col trAction2"></th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4059</th>
+                                        <td>Baxter AG</td>
+                                        <td>10</td>
+                                        <td>10</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group mb-3 tableFilter">
+                            <span class="input-group-text" id="basic-addon1">Thu 02-0602022</span>
+                            <input type="text" class="form-control" placeholder="00.00" aria-label="00.00" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="TableContainer">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col-2">Job#</th>
+                                        <th scope="col-8">Customer</th>
+                                        <th scope="col-1">LC</th>
+                                        <th scope="col-1">Hrs</th>
+                                        </tr>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr class="trAction">
+                                        <th scope="col"></th>
+                                        <th class="col trAction1"><<&nbsp;AddNew&nbsp;>></th>
+                                        <th class="col trAction2"></th>
+                                        <th scope="col"></th>
+                                    </tr>    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group mb-3 tableFilter">
+                            <span class="input-group-text" id="basic-addon1">Thu 02-0602022</span>
+                            <input type="text" class="form-control" placeholder="00.00" aria-label="00.00" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="TableContainer">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col-2">Job#</th>
+                                        <th scope="col-8">Customer</th>
+                                        <th scope="col-1">LC</th>
+                                        <th scope="col-1">Hrs</th>
+                                        </tr>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                <tr class="trAction">
+                                        <th scope="col"></th>
+                                        <th class="col trAction1"><<&nbsp;AddNew&nbsp;>></th>
+                                        <th class="col trAction2"></th>
+                                        <th scope="col"></th>
+                                    </tr>    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group mb-3 tableFilter">
+                            <span class="input-group-text" id="basic-addon1">Thu 02-0602022</span>
+                            <input type="text" class="form-control" placeholder="00.00" aria-label="00.00" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="TableContainer">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col-2">Job#</th>
+                                        <th scope="col-8">Customer</th>
+                                        <th scope="col-1">LC</th>
+                                        <th scope="col-1">Hrs</th>
+                                        </tr>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="trAction">
+                                        <th scope="col"></th>
+                                        <th class="col trAction1"><<&nbsp;AddNew&nbsp;>></th>
+                                        <th class="col trAction2"></th>
+                                        <th scope="col"></th>
+                                    </tr>    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group mb-3 tableFilter">
+                            <span class="input-group-text" id="basic-addon1">Thu 02-0602022</span>
+                            <input type="text" class="form-control" placeholder="00.00" aria-label="00.00" aria-describedby="basic-addon1">
+                        </div>
+                        <div class="TableContainer">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col-2">Job#</th>
+                                        <th scope="col-8">Customer</th>
+                                        <th scope="col-1">LC</th>
+                                        <th scope="col-1">Hrs</th>
+                                    </tr>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="trAction">
+                                        <th scope="col"></th>
+                                        <th class="col trAction1"><<&nbsp;AddNew&nbsp;>></th>
+                                        <th class="col trAction2"></th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="container paginationActionContainer">
+                    <div class="paginationAction row">
+                        <div class="paginationActionButton col-2" style="display: flex; align-items: center; justify-content: flex-end;">
+                            <button type="button" class="btn btn-primary"><<<</button>
+                        </div>
+                        <div class="paginationActionButton col-1">
+                            <button type="button" class="btn btn-primary"><</button>
+                        </div>
+                        <div class="paginationActionButton col-sm-12 col-lg-3">
+                            <button type="button" class="btn btn-primary" style="width: 100%;">Switch to Weekly Mode</button>
+                        </div>
+                        <div class="paginationActionButton col-1" >
+                            <button type="button" class="btn btn-primary">></button>
+                        </div>
+                        <div class="paginationActionButton col-2" style="display: flex; align-items: center; justify-content: flex-start;">
+                            <button type="button" class="btn btn-primary">>>></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Table Ends -->
+        </div>
+        <!-- main Ends -->
+
+        <!-- footer Starts -->
+        <footer class="page-footer">
+            <div class="container footerContainer">
+                <div class="footerHeadingContainer">
+                    <h1 class="footerHeading">Reporting</h1>
+                </div>
+                <div class="row footerActionContainer">
+                    <div class="col-lg-6 col-sm-12 footerAction">
+                        <div class="row selectGroup">
+                            <div class="col-lg-4 selectLabelContainer" id="basic-addon1">
+                                <p class="selectLabel">Start</p>
+                            </div>
+                            <div class="col-lg-8 selectContainer">
+                                <select class="form-select selectTextContainer" aria-label="Default select example">
+                                    <option selected>09-06-2022</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row selectGroup">
+                            <div class="col-lg-4 selectLabelContainer" id="basic-addon1">
+                                <p class="selectLabel">End</p>
+                            </div>
+                            <div class="col-lg-8 selectContainer">
+                                <select class="form-select selectTextContainer" aria-label="Default select example">
+                                    <option selected>16-06-2022</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12  footerActionButtonContainer">
+                        <button type="button" class="btn btn-primary footerActionButton">Show Report</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+        <!-- footer Ends -->
+
+        <!-- JS Imports -->
+        <script src="./script.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+    <!-- Body Ends -->
+</html>

@@ -1,0 +1,329 @@
+body{
+    padding: 2vh;
+    position: relative;
+    background-color: #f7f7f7;
+}
+thead tr th{
+    background-color: #f7f7f7 !important;
+    color: black;
+}
+td, tr{
+    background-color: black;
+    color: #f7f7f7;
+}
+tbody, td, tfoot, th, thead, tr{
+    border: none;
+    padding: 0.5rem 0.3rem !important;
+}
+
+.page-main{
+    margin: 0;
+    background-color: #f7f7f7;
+}
+.page-header{
+    margin: 0;
+    background-color: #f7f7f7;
+    padding: 3vw 3vh 1vw 3vh;
+}
+.HeaderContainer{
+    width: 80vw;
+}
+.HeaderActionsTitle{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.HeaderActionsButton{
+    background-color: #c4c4c4;
+    border: 1px solid #727272;
+    color: #000;
+}
+.HeaderTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.HeaderTitle{
+    color: blue;
+    font-size: 30px;
+    font-weight: 700;
+}
+.TableActionsContainer{
+    background-color: #c4c4c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #f7f7f7;
+}
+.TableHeaderActions{
+    padding: 20px 0px;
+    width: 80vw;
+}
+.TableHeaderActionsButtons{
+    padding: 0px 0px 20px 0px;
+}
+.TableHeaderActionsButtonContainer1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.TableHeaderActionsButtonContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TableHeaderActionsButtonContainer3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.TableHeaderActionsButton1{ 
+    background-color: #c4c4c4;
+    border: 1px solid #727272;
+    color: blue;
+    font-weight: 600;
+    font-size: 15px;
+}
+.TableHeaderActionsButton2{
+    background-color: #c4c4c4;
+    border: 1px solid #727272;
+    color: #000;
+    font-weight: 600;
+    font-size: 15px;
+}
+.TableHeaderActionsButton3{
+    background-color: #c4c4c4;
+    border: 1px solid #727272;
+    color: red;
+    font-weight: 600;
+    font-size: 15px;
+}
+.table{
+   background-color: rgb(253, 253, 184);
+   max-height: 40vh;
+}
+.trAction{
+    background-color: #FDFDB8;
+    color: #000;
+}
+.trAction1{
+    text-align: right;
+}
+.trAction2{
+    text-align: left;
+}
+.tableFilter{
+    padding-top: 10px;
+}
+.selectGroup{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;    
+    box-sizing: border-box;
+}
+.selectLabelContainer{
+    margin: 0;
+    padding: 0;
+}
+.selectLabel{
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0; 
+    margin: 0;
+}
+.selectContainer{
+    margin: 0;
+    padding: 0;
+}
+.selectTextContainer{
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0; 
+}
+.dividerHeadingContainer{
+    padding: 20px 0px;
+}
+.dividerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divider{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+.dividerTextContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dividerText{
+    margin: 0%;
+    font-weight: 600;
+    font-size: 15px;
+}
+.TableGroupContainer{
+    width: 80vw;
+}
+.TableContainer{
+    height: 40vh;
+    background-color: rgb(253, 253, 184);
+    border: 1px solid #727272;
+    overflow-y: auto;
+}
+.paginationActionContainer{
+    padding: 20px 0px;
+}
+.paginationAction{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paginationActionButton{
+    margin: 10px 10px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerContainer{
+    border: 1px solid #c4c4c4;
+    margin-bottom: 100px;
+}
+.footerHeadingContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.footerHeading{
+    font-weight: 600;
+    font-size: 25px;
+}
+.footerActionContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    border: 1px solid #c4c4c4;
+}
+.footerActionButtonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.footerActionButton{
+    background-color: #c4c4c4;
+    border: 1px solid #727272;
+    color: #000;
+    padding: 10px 40px;
+}
+
+#overlay {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s linear;
+}
+
+#overlay.active {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#burger {
+  cursor: pointer;
+}
+
+.line {
+  width: 22px;
+  margin-bottom: 5px;
+  height: 2px;
+  background-color: white;
+}
+
+.line:last-child {
+  margin-bottom: 0;
+}
+
+#nav {
+  height: 100vh;
+  width: 400px;
+  background-color: #f7f7f7;
+  color: #000;
+  position: fixed;
+  right: 0;
+  transform: translateX(100%);
+  transition: transform 0.3s linear;
+  margin-left: 200px;    
+  z-index: 100;
+  top: 0;
+  padding: 50px 20px;
+  overflow-y: auto;
+}
+
+#nav.active {
+  transform: translateX(0);
+}
+.navClose{
+    padding: 0px 20px;
+}
+.codeListContainer{
+    padding: 20px;
+}
+.codeListItem{
+    padding: 10px 0px;
+    border: 2px solid #c4c4c4;
+    margin: 5px 0px;
+}
+.codeListItemText{
+    padding: 0px 10px;
+    margin: 0;
+}
+@media screen and (max-width: 600px) {
+    .HeaderActionsButtonContainer{
+        margin-left: 10px;
+    }
+    .HeaderTitle{
+        font-size: 15px;
+    }
+    .HeaderTitleContainer{
+        padding: 0;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .HeaderActionsButtonContainer{
+        margin-top: 10px;
+    }
+    .HeaderActionsTitle{
+        font-size: 20px;
+    }
+    .HeaderTitle{
+        font-size: 18px;
+    }
+    .otlable{
+        padding: 10px 0px;
+    }
+}
